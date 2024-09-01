@@ -1,0 +1,123 @@
+/* CareerChatbot.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: radial-gradient(circle, #b98686, #6a2929);
+}
+
+* {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.career-chatbot-wrapper{
+  background: radial-gradient(circle, #b98686, #6a2929); /* Adjust the colors as needed */
+}
+
+.chatbot-container {
+  max-width: 50%;
+  margin: auto;
+  padding: 20px;
+  background-color: #c88e8e;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.chatbot-container h1 {
+  color: #333;
+  text-align: center;
+}
+
+.chatbot-form {
+  margin-top: 20px;
+}
+
+.input-section {
+  display: flex;
+  align-items: center;
+}
+
+.user-logo {
+  max-width: 30px;
+  margin-right: 10px;
+}
+
+.input-box {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  outline: none; /* Remove the outline on focus */
+  font-size: medium;
+}
+
+.input-box:focus {
+  border: none; /* Remove the border on focus */
+  background-color: #8f8f8f9b; /* Set background color to transparent on focus */
+}
+
+.predict-button {
+  padding: 10px;
+  background-color: #2d0e83b4;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.predict-button:hover {
+  background-color: #2d0e83;
+}
+
+.response-section {
+  margin-top: 20px;
+}
+
+.bot-logo {
+  max-width: 40px;
+  margin-right: 10px;
+}
+
+.response-container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: 20px;
+}
+
+.response-details{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.error-message {
+  color: red;
+}
+
+.chatHistory{
+  margin-top: 20px;
+
+}
+
+.response-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.response-container li {
+  margin-bottom: 15px;
+}
+
+.course-name {
+  font-weight: bold;
+  margin-right: 5px;
+}
